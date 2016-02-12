@@ -1,0 +1,7 @@
+name 'site-backuppctypo3org'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures site-backuppctypo3org'
+long_description 'Installs/Configures site-backuppctypo3org'
+version '0.1.0'
