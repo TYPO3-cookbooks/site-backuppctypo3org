@@ -772,6 +772,7 @@ $Conf{BackupFilesExclude} = {
     '/var/lib/vz/tmp',
     '/var/lib/vz/vztmp',
     '/var/lib/lxc/*/rootfs',
+    '/var/log/thin/redmine.*.log',
     '/var/lock',
     '/var/run',
     '/var/spool/sympa/queuetask',
