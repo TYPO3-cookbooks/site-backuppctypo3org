@@ -87,7 +87,7 @@ GRAPH
   runit (1.7.6)
     packagecloud (>= 0.0.0)
   screen (0.7.0)
-  site-backuppctypo3org (1.0.0)
+  site-backuppctypo3org (1.0.1)
     backuppc (~> 1.0.0)
     t3-base (~> 0.2.0)
   smf (2.2.7)
