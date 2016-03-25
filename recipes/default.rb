@@ -11,3 +11,6 @@ include_recipe "backuppc::server"
 # Take the templates for these two files from this cookbook
 resources("template[/etc/backuppc/config.pl]").cookbook cookbook_name
 resources("template[/etc/backuppc/hosts]").cookbook cookbook_name
+
+# VPN
+include_recipe "t3-tinc"

@@ -8,3 +8,4 @@ version          "1.0.0"
 depends          "t3-base",   "~> 0.2.0"
 
 depends          "backuppc",  "~> 1.0.0"
+depends          "t3-tinc",   "~> 1.0.0"
