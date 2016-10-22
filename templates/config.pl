@@ -760,6 +760,9 @@ $Conf{BackupFilesExclude} = {
     '/usr/lib/lxc/root',
     '/var/autofs',
     '/var/cache',
+    '/var/lib/backuppc/cpool',
+    '/var/lib/backuppc/pc',
+    '/var/lib/backuppc/pool',
     '/var/lib/docker',
     '/var/lib/jenkins/jobs/*/builds',
     '/var/lib/jenkins/jobs/*/workspace',
@@ -783,10 +786,11 @@ $Conf{BackupFilesExclude} = {
     '/var/www/vhosts/**/tmp',
     '/var/www/vhosts/**/typo3temp',
     '/var/www/vhosts/**/www/typo3conf/deprecation_*.log',
+    '/var/www/vhosts/api.typo3.org/home/APIBuilder/Temporary',
+    '/var/www/vhosts/wiki.typo3.org/backup',
     '/var/www/vhosts/typo3.org/home/_bak',  # for srv107 (typo3.org)
     '/var/www/vhosts/typo3.org/home/backup',  # for srv107 (typo3.org)
     '/var/www/vhosts/*/shared/Data/Logs',  # for srv124 (Flow sites)
-    '/var/www/vhosts/*/releases/*/Data/Temporary',  # for srv124 (Flow sites)
     '/var/www/vhosts/*/releases/*/Data/Temporary',  # for srv124 (Flow sites)
     '/var/www/t3org/' # for srv112 (typo3.org jenkins)
   ]

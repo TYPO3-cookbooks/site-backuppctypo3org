@@ -60,6 +60,6 @@ srv102.typo3.org	0	mstucki	pniederlag,sgebert,fudriot
 srv103.typo3.org	0	mstucki	pniederlag,sgebert,fudriot
 
 # automatic through chef search
-<% @hosts.sort_by{|host, data| host[:fqdn]}.each do |host| -%>
-<%= host['fqdn'] %>	0	<%= @owner %>	<%= @users %>
+<% @hosts.sort_by{|host| host['fqdn']}.each do |host| -%>
+  <%= host['fqdn'] %>	0	<%= @owner %>	<%= @users %>
 <% end %>

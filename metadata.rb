@@ -3,7 +3,7 @@ maintainer       "Steffen Gebert / TYPO3 Association"
 maintainer_email "steffen.gebert@typo3.org"
 license          "Apache 2.0"
 description      "Installs/configures site-backuppctypo3org"
-version          "1.0.3"
+version          "1.0.6"
 
 depends          "t3-base",   "~> 0.2.0"
 
