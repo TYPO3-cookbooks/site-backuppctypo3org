@@ -765,7 +765,7 @@ $Conf{BackupFilesExclude} = {
     '/var/lib/backuppc/pool',
     '/var/lib/docker',
     '/var/lib/jenkins/jobs/*/builds',
-    '/var/lib/jenkins/jobs/*/workspace',
+    '/var/lib/jenkins/jobs/*/workspace*',
     '/var/lib/mlocate',
     '/var/lib/mysql',
     '/var/lib/nginx/proxy',
