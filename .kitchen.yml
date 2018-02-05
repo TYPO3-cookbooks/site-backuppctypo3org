@@ -16,12 +16,12 @@ suites:
   attributes:
     backuppc:
       ssl_certificate: wildcard.vagrant
-- name: monitoring
-  run_list:
-    - recipe[site-backuppctypo3org::default]
-  attributes:
-    t3-base:
-      flags:
-        production: true
-    backuppc:
-      ssl_certificate: wildcard.vagrant
+#- name: monitoring
+#  run_list:
+#    - recipe[site-backuppctypo3org::default]
+#  attributes:
+#    t3-base:
+#      flags:
+#        production: true
+#    backuppc:
+#      ssl_certificate: wildcard.vagrant
