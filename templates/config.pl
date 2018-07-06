@@ -461,7 +461,7 @@ $Conf{IncrPeriod} = 0.97;
 #    $Conf{FullKeepCnt} = 4;
 #    $Conf{FullKeepCnt} = [4];
 #
-$Conf{FullKeepCnt} = 52;
+$Conf{FullKeepCnt} = [4, 0, 12];
 
 #
 # Very old full backups are removed after $Conf{FullAgeMax} days.  However,
@@ -473,7 +473,7 @@ $Conf{FullKeepCnt} = 52;
 # full backups to exceed $Conf{FullAgeMax}.
 #
 $Conf{FullKeepCntMin} = 1;
-$Conf{FullAgeMax}     = 90;
+$Conf{FullAgeMax}     = 365;
 
 #
 # Number of incremental backups to keep.  Must be >= 1.
